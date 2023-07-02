@@ -18,7 +18,7 @@
 
 [D. Demo Video](./D-Demo%20Video/)
 
-## GIT REPO :
+## Download GIT REPO :
 ```
-https://github.com/smartinternz02/SI-GuidedProject-525228-1688112861.git
+git clone https://github.com/smartinternz02/SI-GuidedProject-525228-1688112861.git
 ```
