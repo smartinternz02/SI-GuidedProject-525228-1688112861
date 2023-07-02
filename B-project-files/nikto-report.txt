@@ -1,0 +1,13 @@
+- Nikto v2.5.0/
++ Target Host: pit.ac.in
++ Target Port: 80
++ GET /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options: 
++ GET /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/: 
++ GET /webmail/blank.html: IlohaMail 0.8.10 contains an XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ GET /securecontrolpanel/: Web Server Control Panel.
++ GET /webmail/: Web based mail package installed.
++ GET /mailman/listinfo: Mailman was found on the server. See: CWE-552: 
++ GET /cpanel/: Web-based control panel. See: OSVDB-2117: 
++ GET /img-sys/: Default image directory should not allow directory listing.
++ GET /webmail/lib/emailreader_execute_on_each_page.inc.php: This might be interesting: has been seen in web logs from an unknown scanner.
++ GET /controlpanel/: Admin login page/section found.

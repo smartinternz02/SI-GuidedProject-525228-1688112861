@@ -1,0 +1,24 @@
+Target 	: pit.ac.in
+Ip 		: 101.53.133.39
+
+Server info  	: 
+Server	: 192.168.179.224
+Target port	: 53
+Address	: 192.168.179.224#53
+
+Target open Ports : 
+
+PORT		STATE	SERVICE
+
+22/tcp		open   	ssh
+53/tcp  	open   	domain
+80/tcp   	open   	http
+110/tcp  	open   	pop3
+143/tcp  	open   	imap
+443/tcp  	open   	https
+465/tcp  	open   	smtps
+587/tcp  	open   	submission
+993/tcp  	open   	imaps
+995/tcp  	open   	pop3s
+
+
